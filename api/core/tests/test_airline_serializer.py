@@ -2,7 +2,7 @@ from django.test import TestCase
 from core.models import Airline
 from core.serializers import AirlineSerializer
 
-class AirportSerializerTestCase(TestCase):
+class AirlineSerializerTestCase(TestCase):
     def setUp(self):
         self.airline_attributes = {
             'name': "Delta Airlines",
